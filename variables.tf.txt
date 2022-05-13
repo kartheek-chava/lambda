@@ -1,0 +1,18 @@
+variable "name" {}
+
+variable "memory_size" {
+  default = "128"
+}
+
+variable "timeout" {
+  default = "50"
+}
+
+variable env_vars {
+  default = {}
+}
+
+variable with_api_gateway {
+  default = true
+}
+
